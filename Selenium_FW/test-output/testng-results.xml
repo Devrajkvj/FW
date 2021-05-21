@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[setting up the Reports and Test is getting started]]>
+    </line>
+    <line>
+      <![CDATA[settings completed and Test started]]>
+    </line>
+    <line>
+      <![CDATA[Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[browser launched]]>
+    </line>
+    <line>
+      <![CDATA[capturing ScreenShots]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed and report get generated]]>
+    </line>
+    <line>
+      <![CDATA[browser is about close]]>
+    </line>
+    <line>
+      <![CDATA[browser closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-20T16:50:30Z" name="Default suite" finished-at="2021-05-20T16:51:29Z" duration-ms="59238">
+    <groups>
+    </groups>
+    <test started-at="2021-05-20T16:50:30Z" name="Default test" finished-at="2021-05-20T16:51:29Z" duration-ms="59238">
+      <class name="com.flipKart.testCases.FlipKartLogin">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-20T16:50:29Z" name="setUpSuite" finished-at="2021-05-20T16:50:30Z" duration-ms="1129" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[setting up the Reports and Test is getting started]]>
+            </line>
+            <line>
+              <![CDATA[settings completed and Test started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-20T16:50:30Z" name="setup" finished-at="2021-05-20T16:50:55Z" duration-ms="25348" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[browser launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-20T16:50:55Z" name="login" finished-at="2021-05-20T16:51:17Z" duration-ms="21777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-20T16:51:17Z" name="tearDownMethod" finished-at="2021-05-20T16:51:27Z" duration-ms="10016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=FlipKartLogin.login()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[capturing ScreenShots]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed and report get generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-20T16:51:27Z" name="tearDown" finished-at="2021-05-20T16:51:29Z" duration-ms="2067" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser is about close]]>
+            </line>
+            <line>
+              <![CDATA[browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipKart.testCases.FlipKartLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
