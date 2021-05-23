@@ -17,7 +17,6 @@ import com.mongodb.diagnostics.logging.Logger;
 
 public class FlipKartLogin extends BaseClass { 
 	
-	
 	@Test
 	public void login() {	
 		
@@ -42,5 +41,4 @@ public class FlipKartLogin extends BaseClass {
 			
 			logger.pass("logged in successfully");
 	}
-
 }
