@@ -16,9 +16,11 @@ import com.flipKart.utilities.Helper;
 import com.mongodb.diagnostics.logging.Logger;
 
 public class FlipKartLogin extends BaseClass { 
-		
+	
+	
 	@Test
-	public void login() {			
+	public void login() {	
+		
 			String un = excel.getStringData(0, 0, 1);
 			String pwd = excel.getStringData(0, 0, 2);
 			String ph = excel.getNumericData(0, 0, 3);

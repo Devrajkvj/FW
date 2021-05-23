@@ -7,9 +7,9 @@
         <methods>
           <include name="setUpSuite"/>
           <include name="tearDown"/>
-          <include name="setup"/>
           <include name="login"/>
           <include name="tearDownMethod"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- com.flipKart.testCases.FlipKartLogin -->
     </classes>

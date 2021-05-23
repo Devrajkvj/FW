@@ -10,7 +10,7 @@ public class ConfigDataProvider {
 	
 	public ConfigDataProvider() {	
 		try {
-			File src = new File("C:\\Users\\Devraj\\eclipse-workspace\\Selenium_FW\\Configuration\\config.properties");
+			File src = new File("C:\\Users\\Devraj\\git\\FW\\Selenium_FW\\Configuration\\config - Copy.properties");
 			FileInputStream fis = new FileInputStream(src);
 			pro = new Properties();
 			pro.load(fis);

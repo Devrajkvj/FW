@@ -9,7 +9,7 @@ public class BrowserFactory {
 
 	public static WebDriver startApplication(String browser, WebDriver driver, String url) {
 		if(browser.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Devraj\\eclipse-workspace\\Selenium_FW\\Drivers\\chromedriver.exe");     
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Devraj\\git\\FW\\Selenium_FW\\Drivers\\chromedriver.exe");     
 			driver=new ChromeDriver();	
 		}
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);

@@ -10,12 +10,14 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.MediaEntityModelProvider;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.beust.jcommander.Parameter;
 import com.flipKart.utilities.BrowserFactory;
 import com.flipKart.utilities.ConfigDataProvider;
 import com.flipKart.utilities.ExcelDataProvider;
@@ -47,11 +49,13 @@ public class BaseClass {
 		
 		Reporter.log("settings completed and Test started", true);
 	}
-
+    
+	@Parameters("browser")
 	@BeforeClass
-	public void setup() {
+	public void setup(String browser) {
 		Reporter.log("Launching browser", true);
-		driver = BrowserFactory.startApplication(config.getDataFromConfig("browser"), driver,config.getDataFromConfig("url"));
+		//driver = BrowserFactory.startApplication(config.getDataFromConfig("browser"), driver,config.getDataFromConfig("url"));
+		driver = BrowserFactory.startApplication(browser, driver,config.getDataFromConfig("url"));
 		Reporter.log("browser launched", true);
 	}
 

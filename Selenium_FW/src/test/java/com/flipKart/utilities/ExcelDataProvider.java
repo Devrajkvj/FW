@@ -11,7 +11,9 @@ public class ExcelDataProvider {
 	XSSFWorkbook wb;
 
 	public ExcelDataProvider() {
-		File src = new File("C:\\Users\\Devraj\\eclipse-workspace\\Selenium_FW\\TestData\\testdata.xlsx");
+		File src = new File("C:\\Users\\Devraj\\git\\FW\\Selenium_FW\\TestData\\testdata - Copy.xlsx");
+							
+		
 		try {
 			FileInputStream fis = new FileInputStream(src);
 			wb = new XSSFWorkbook(fis);

@@ -26,12 +26,12 @@
       <![CDATA[browser closed]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-05-20T16:50:30Z" name="Default suite" finished-at="2021-05-20T16:51:29Z" duration-ms="59238">
+  <suite started-at="2021-05-22T16:55:01Z" name="Default suite" finished-at="2021-05-22T16:55:22Z" duration-ms="21374">
     <groups>
     </groups>
-    <test started-at="2021-05-20T16:50:30Z" name="Default test" finished-at="2021-05-20T16:51:29Z" duration-ms="59238">
+    <test started-at="2021-05-22T16:55:01Z" name="Default test" finished-at="2021-05-22T16:55:22Z" duration-ms="21374">
       <class name="com.flipKart.testCases.FlipKartLogin">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-20T16:50:29Z" name="setUpSuite" finished-at="2021-05-20T16:50:30Z" duration-ms="1129" status="PASS">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-22T16:55:00Z" name="setUpSuite" finished-at="2021-05-22T16:55:01Z" duration-ms="792" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[setting up the Reports and Test is getting started]]>
@@ -41,7 +41,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-20T16:50:30Z" name="setup" finished-at="2021-05-20T16:50:55Z" duration-ms="25348" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-22T16:55:01Z" name="setup" finished-at="2021-05-22T16:55:20Z" duration-ms="18711" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching browser]]>
@@ -51,11 +51,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-20T16:50:55Z" name="login" finished-at="2021-05-20T16:51:17Z" duration-ms="21777" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-22T16:55:20Z" name="login" finished-at="2021-05-22T16:55:21Z" duration-ms="1337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-20T16:51:17Z" name="tearDownMethod" finished-at="2021-05-20T16:51:27Z" duration-ms="10016" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-22T16:55:21Z" name="tearDownMethod" finished-at="2021-05-22T16:55:22Z" duration-ms="631" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,7 +72,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-20T16:51:27Z" name="tearDown" finished-at="2021-05-20T16:51:29Z" duration-ms="2067" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipKart.testCases.FlipKartLogin@41a0aa7d]" started-at="2021-05-22T16:55:22Z" name="tearDown" finished-at="2021-05-22T16:55:22Z" duration-ms="670" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser is about close]]>
